@@ -1,6 +1,5 @@
 ### Gradle Dependency
-
-##一些基础
+----
 
 
 ##依赖声明
