@@ -110,7 +110,7 @@ dependencies {
   
   甚至可以修改任务的```name```属性。
   
-  所以这两个块都应与相应的 ```apply plugin: ...``` 同级，即同属于一个对象，如```project```或```buildscript```。因此，这样写是有效的：
+  所以这两个块都应与相应的 ```apply plugin: ...``` 同级，即同属于一个对象，如```project```或```buildscript```。因此，这样写是有效的，由于脚本块```subsetscript```和```project```都具有apply方法：
   
   ```
   buildscript{
